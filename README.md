@@ -79,7 +79,8 @@ To connect the Chrome extension to a local server for proxying connections:
 #### Run MCP SuperAssistant Proxy via npx:
 
    ```bash
-   npx @srbhptl39/mcp-superassistant-proxy@latest --config ./mcptestconfig.json
+   npx @srbhptl39/mcp-superassistant-proxy@latest --config ./mcplocalpostgresdocker.json
+   mcptestconfig.json
    ```
    
    This is useful for:
