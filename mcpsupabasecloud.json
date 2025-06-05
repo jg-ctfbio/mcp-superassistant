@@ -6,7 +6,7 @@
           "-y",
           "@supabase/mcp-server-supabase@latest",
           "--access-token",
-          "sbp_11fb6a8f7ad59d6cad48db1d6befa08f84cb8e78"
+          "<supabase_pat>"
         ],
         "timeoutMs": 60000,
         "requestTimeoutMs": 60000
