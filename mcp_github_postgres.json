@@ -22,7 +22,7 @@
         "--access-mode=unrestricted"
       ],
       "env": {
-        "DATABASE_URI": "postgresql://postgres:postgres@127.0.0.1:54322/postgres"
+        "DATABASE_URI": "postgresql://postgres:postgres@host.docker.internal:60002/postgres"
       }
     }    
   }

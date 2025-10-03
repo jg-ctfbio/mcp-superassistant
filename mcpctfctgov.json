@@ -1,0 +1,15 @@
+{
+"mcpServers": {
+"ctgov-seeder-mcp": {
+"command": "C:\\Windows\\System32\\cmd.exe",
+"args": [
+"/d",
+"/c",
+"cd /d C:\\Users\\jorge\\OneDrive\\Documents\\GitHub\\ctgov-seeder-mcp-python && .\\.venv\\Scripts\\python.exe -m ctgov_seeder_mcp"
+],
+"env": {
+"PYTHONIOENCODING": "utf-8"
+}
+}
+}
+}

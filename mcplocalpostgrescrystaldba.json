@@ -1,14 +1,18 @@
 {
   "mcpServers": {
-    "postgres": {
-      "command": "uv",
+    "postgres-crsytaldba": {
+      "command": "docker",
       "args": [
         "run",
-        "postgres-mcp",
+        "-i",
+        "--rm",
+        "-e",
+        "DATABASE_URI",
+        "crystaldba/postgres-mcp",
         "--access-mode=unrestricted"
       ],
       "env": {
-        "DATABASE_URI": "postgresql://postgres:postgres@127.0.0.1:54322/postgres"
+        "DATABASE_URI": "postgresql://postgres:postgres@host.docker.internal:60002/postgres"
       }
     }
   }
