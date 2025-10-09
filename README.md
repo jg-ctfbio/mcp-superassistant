@@ -86,6 +86,7 @@ To connect the Chrome extension to a local server for proxying connections:
    mcplocalpostgresdocker.json
    mcptestconfig.json
    mcppostgresmcp.json
+   mcpsupabasecloud.json
    mcpctfctgov.json
    ```
    
