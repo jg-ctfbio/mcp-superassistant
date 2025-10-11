@@ -86,6 +86,7 @@ npx @srbhptl39/mcp-superassistant-proxy@latest --config ./mcpctfctgov.json --out
    mcplocalpostgresdocker.json
    mcptestconfig.json
    mcppostgresmcp.json
+   mcpsupabasecloud.json
    mcpctfctgov.json
    ```
    

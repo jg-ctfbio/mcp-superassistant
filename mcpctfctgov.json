@@ -1,15 +1,14 @@
 {
 "mcpServers": {
 "ctgov-seeder-mcp": {
-"command": "C:\\Windows\\System32\\cmd.exe",
-"args": [
-"/d",
-"/c",
-"cd /d C:\\Users\\jorge\\OneDrive\\Documents\\GitHub\\ctgov-seeder-mcp-python && .\\.venv\\Scripts\\python.exe -m ctgov_seeder_mcp"
-],
+"command": "/Users/jorge/Documents/ctgov-seeder-mcp-python/.venv/bin/python",
+"args": ["-m", "ctgov_seeder_mcp"],
 "env": {
-"PYTHONIOENCODING": "utf-8"
-}
+"PYTHONIOENCODING": "utf-8",
+"PYTHONPATH": "/Users/jorge/Documents/ctgov-seeder-mcp-python"
+},
+"timeoutMs": 60000,
+"requestTimeoutMs": 60000
 }
 }
 }
