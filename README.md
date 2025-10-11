@@ -80,6 +80,7 @@ To connect the Chrome extension to a local server for proxying connections:
 
    ```bash
 npx @srbhptl39/mcp-superassistant-proxy@latest --config ./mcpctfctgov.json --outputTransport sse
+npx @srbhptl39/mcp-superassistant-proxy@latest --config ./mcpctfctgovwindows.json --outputTransport sse
    npx @srbhptl39/mcp-superassistant-proxy@latest --config ./config.json --outputTransport sse
    mcp_github_postgres.json
    mcplocalpostgrescrystaldba.json
